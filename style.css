@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    color: #333;
+    background: #f5f5f5;
+  }
+  
+  header {
+    background-color: #09090a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: right;
+  }
+  .btn {
+    float: right;
+  }
+  
+  .events-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -10px;
+  }
+  @media only screen and (max-width: 768px) {
+    .event-row {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .event-card {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    h2, p {
+      font-size: 1.2em;
+    }
+  
+    .content button {
+      margin-bottom: 10px;
+    }
+  }
+  
+  .event-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .event-card {
+    width: 30%;
+    margin: 0;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    height: fit-content;
+  }
+  
+  .event-card:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .event-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .event-card h3 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .event-card h4 {
+    margin-top: 5px;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .event-card p {
+    margin: 0;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  .event-card button {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #0400ff;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .event-card button:hover {
+    background-color: #0000ff;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .event-card {
+      width: 50%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .btn {
+    background-color: #4c00ff;
+    color: #ffffff;
+    border-color: #000000;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Know More button animation */
+  #more-content {
+    display: none;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
